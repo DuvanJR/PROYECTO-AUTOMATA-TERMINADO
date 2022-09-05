@@ -1,0 +1,86 @@
+<!DOCTYPE ?xml>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <?xml version=»1.0″ encoding=»UTF-8″ ?>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/alertify.min.css">
+
+    <title>Registro de estudiantes</title>
+</head>
+
+<body>
+    <h1>Registro de estudiantes</h1>
+    <hr>
+    <div id="contenido">
+        <h2>Formulario de Registro</h2>
+        <form id="formulario" action="#" method="post">
+
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <br>
+
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+            <br>
+
+            <input type="number" name="codigo" id="codigo" placeholder="codigo">
+            <br>
+
+            <input type="text" name="fecha" id="fecha" placeholder="Fecha: dd/mm/yyyy">
+            <br>
+
+            <input type="text" name="direccion" id="direccion" placeholder="Direccion">
+            <br>
+
+            <input type="number" name="telefono" id="telefono" placeholder="Telefono">
+            <br>
+
+            <input type="number" name="celular" id="celular" placeholder="Celular">
+            <br>
+
+            <input type="text" name="email" id="email" placeholder="email">
+            <br>
+
+        </form>
+        <br>
+        <button id="btn">Enviar Datos</button>
+        <br>
+        <br>
+        <input type="button" value="Descargar Datos" onclick="save_func();">
+        <br>
+        <br>
+
+
+
+    </div>
+    <br>
+    <div>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Codigo Estudiante</th>
+                    <th>Fecha</th>
+                    <th>Direccion</th>
+                    <th>Telefono</th>
+                    <th>Celular</th>
+                    <th>Correo</th>
+                </tr>
+            </thead>
+
+        </table>
+    </div>
+
+
+    <script src="js/alertify.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-pprn3073KE6tl&bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " crossorigin="anonymous "></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11 "></script>
+    <script src="js/js_expor.js"></script>
+    <script src="js/js_form.js"></script>
+
+
+</body>
+
+</html>
